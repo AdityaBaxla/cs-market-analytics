@@ -13,6 +13,14 @@ different tools to get some insigths into csgo marketplace
 -   cleanup the data
 -   use data science models to best fit approximation
 -   take new price data and imporve the model
+-   A Vector Autoregressive (VAR) might be suitable for this problem. Consider a vector of yt=(y1,t,y2,t,…,yn,t)′
+ where the different y
+s are the variables you have collected, and for example y1
+ is the variable you are interested in modelling, status of a system, and the n
+ other variables you mentioned. You can fit the following model, yt=β0+β1yt−1+β2yt−2+⋯+βpyt−p+ϵt
+, by OLS/GLS, where ϵt
+ is the residuals which is IIDN N(0,Σϵ)
+. You can use this model to predict the future values of you dependent variable, by regressing on the past values of the dependent variable and the other variables you have collected. Is this what you are looking for? I'd recommend testing the individual series for unit roots first, and difference the series if there are unit roots present.
 
 ## currency codes in steam
 1 - USD / United States Dollar
