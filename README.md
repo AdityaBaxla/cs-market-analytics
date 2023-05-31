@@ -3,6 +3,14 @@ different tools to get some insigths into csgo marketplace
 
 # To-Do list
 
+## What parameters affect the price of the items:
+- rarity ( chances of getting out of the case/capsule)
+- supply ( how many are there in the listing + player inventories)
+- looks 
+- hype
+- social media influence (youtuber make a video on it)
+- special features (looks like a dick / chinese symbol etc.)
+
 ## Get intrinsic value of csgo items
 
 ## predit movement of prices
