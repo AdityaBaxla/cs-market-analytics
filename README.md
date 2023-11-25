@@ -1,5 +1,5 @@
 # cs-market-analytics
-different tools to get some insigths into csgo marketplace 
+different tools to get some insights into csgo marketplace 
 
 # To-Do list
 
